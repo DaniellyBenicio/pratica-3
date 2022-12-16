@@ -17,7 +17,7 @@ int main(){
 	printf("Conversor de temperatura Celsius para Fahrenheit\n\n");
 	
 	printf("Conversor de temperatura\n");
-	printf("Escolha uma opção:\n");
+	printf("Escolha uma opÃ§Ã£o:\n");
 	printf("1 - Celsius para Fahrenheit\n");
 	printf("2 - Fahrenheit para Celsius\n");
 	printf("3 - Celsius para Kelvin\n");
@@ -32,15 +32,15 @@ int main(){
 		printf(" em Fahrenheit: ");
 		scanf("%f", &tf);
 		tc = fahrenheitParacelsius(tf);
-	}else if(op==3){
+	}else{
 		printf(" em Celsius: ");
 		scanf("%f", &tc);
 		tk = celsiusParakelvin(tc);
 	}
 	
-	printf("Temperatura em Celsius: %.2f ºC \n", tc);
-	printf("Temperatura em Fahrenheit: %.2f ºF \n", tf);
-	printf("Temperatura em Kelvin: %.2f ºK \n", tk);
+	printf("Temperatura em Celsius: %.2f ÂºC \n", tc);
+	printf("Temperatura em Fahrenheit: %.2f ÂºF \n", tf);
+	printf("Temperatura em Kelvin: %.2f ÂºK \n", tk);
 	
 	return 0;
 }
